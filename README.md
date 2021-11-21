@@ -25,12 +25,8 @@
 
 - 5 minute presentation to a group of collegues and managers about the work you did, why, goals, what you found, your methdologies, and your conclusions.
 
-<b><b>
+<b><b><b><b><b><b><b><b><b><b><b><b><b><b>
 ------------------------------------------
-
-
-    
-    
 # Business Goals
 
 - Find drivers for customer churn at Telco. Why are customers churning?
