@@ -25,7 +25,7 @@
 
 - 5 minute presentation to a group of collegues and managers about the work you did, why, goals, what you found, your methdologies, and your conclusions.
 
-<b><b><b><b><b><b><b><b><b><b><b><b><b><b>
+ <br><br><br><br><br><br><br><br><br>
 ------------------------------------------
 # Business Goals
 
@@ -36,5 +36,5 @@
 - Deliver a report that a non-data scientist can read through and understand what steps were taken, why and what was the outcome?
     
     
-<b><b><b><b><b><b><b><b><b><b><b><b><b><b>
+ <br><br><br><br><br><br><br><br><br>
 ------------------------------------------
