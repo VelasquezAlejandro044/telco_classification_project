@@ -34,3 +34,7 @@
 - Construct a ML classification model that accurately predicts customer churn.
 
 - Deliver a report that a non-data scientist can read through and understand what steps were taken, why and what was the outcome?
+    
+    
+<b><b><b><b><b><b><b><b><b><b><b><b><b><b>
+------------------------------------------
