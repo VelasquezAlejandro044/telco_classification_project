@@ -1,13 +1,15 @@
 # impots 
 import pandas as pd
-import numpy as np
 import os
 from env import host, user, password
 
+def get_db_url(db_name):
+    from env import user, host, password
+    return f'mysql+pymysql://{user}:{password}@{host}/{db_name}'
 
 def new_telco_data():
     '''
-    This function reads the iris data from the Codeup db into a df.
+    This function reads the Telco data from the Codeup db into a df.
     '''
     sql_query = """
                 select * from customers
@@ -17,13 +19,13 @@ def new_telco_data():
                 """
     
     # Read in DataFrame from Codeup db.
-    df = pd.read_sql(sql_query, get_connection('telco_churn'))
+    df = pd.read_sql(sql_query, get_db_url('telco_churn'))
     
     return df
 
 def get_telco_data():
     '''
-    This function reads in iris data from Codeup database, writes data to
+    This function reads in Telco data from Codeup database, writes data to
     a csv file if a local file does not exist, and returns a df.
     '''
     if os.path.isfile('telco.csv'):
