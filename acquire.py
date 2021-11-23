@@ -1,4 +1,4 @@
-# impots 
+# imports 
 import pandas as pd
 import os
 from env import host, user, password
