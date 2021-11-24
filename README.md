@@ -47,8 +47,10 @@
 
 - Is people getting beneficiary tratment for singnig a 2 year contract?
 
+-  Is the payment methode related to churn?
 
- 
+- Are online do different services relate to churn?
+
  <br><br><br><br><br><br><br><br><br>
 
 ---------------------------------------------------------------
