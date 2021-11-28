@@ -58,10 +58,16 @@ def clean_data():
     # get all the columns that that indicate customer does not have internet
     no_internet_columns = [col for col in df.columns if 'No internet service' in col]
     # Drop all the colums that repete no_internet data
+    df.rename({'internet_service_type_Fiber optic': 'fiver_optic_yes',\
+               'contract_type_Two year': 'contract_type_two_years',\
+               'payment_type_Electronic check':'payment_type_electronic_check',\
+               'internet_service_type_Fiber optic':'internet_service_type_fiber_optic',\
+              }, axis=1,inplace=True)
     for col in df.columns:
         for str in no_internet_columns:
             if str in col:
                 del df[col]
+    df = df.drop(columns = ['payment_type_Credit card (automatic)'])
     
     return df
 
