@@ -62,7 +62,10 @@ def clean_data():
                'contract_type_Two year': 'contract_type_two_years',\
                'payment_type_Electronic check':'payment_type_electronic_check',\
                'internet_service_type_Fiber optic':'internet_service_type_fiber_optic',\
+               'contract_type_One year' : 'contract_type_one_year',\
               }, axis=1,inplace=True)
+    
+    # Drop dupoicate columns
     for col in df.columns:
         for str in no_internet_columns:
             if str in col:
