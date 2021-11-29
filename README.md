@@ -59,6 +59,10 @@
 
 Use file `acquire.py` that will upload data to the final noteboolk.
 
+---------------------------------------------------------------
+
+## Data Dictionary
+
 |idx  |Feature                           |Not null values |data type|
 | --- | ---------------------------------|----------------|--------|  
 | 0   |payment_type_id                   | 7032 non-null  | int64  |
